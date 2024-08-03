@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Poem-generator</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
@@ -20,8 +24,10 @@
             placeholder="Enter the topic of the "
             autofocus
             replaced
+            required
             autocomplete="off"
             class="instructions"
+            id="user-instruction"
           />
           <input type="submit" class="submit-button" />
         </form>
