@@ -18,20 +18,23 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the "
-            autofocus
-            replaced
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instruction"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the "
+              autofocus
+              replaced
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instruction"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">ie Flowers, New York or love</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
@@ -39,7 +42,7 @@
         <a
           href="https://github.com/SoumyaSinghcodes/poem-generator"
           target="_blank"
-          >Soumya Singh</a
+          >Soumya Singh ❤</a
         >
         and is hosted on Github.
       </footer>
